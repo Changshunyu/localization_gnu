@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/qa_header_format.cc.o -c /home/gnu/gr-customModule/lib/qa_header_format.cc",
+  "file": "/home/gnu/gr-customModule/lib/qa_header_format.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/ofdm_sync_shunyu_impl.cc.o -c /home/gnu/gr-customModule/lib/ofdm_sync_shunyu_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/ofdm_sync_shunyu_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/complex_to_arg_impl.cc.o -c /home/gnu/gr-customModule/lib/complex_to_arg_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/complex_to_arg_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/complex_to_mag_squared_impl.cc.o -c /home/gnu/gr-customModule/lib/complex_to_mag_squared_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/complex_to_mag_squared_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/conjugate_cc_impl.cc.o -c /home/gnu/gr-customModule/lib/conjugate_cc_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/conjugate_cc_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/delay_impl.cc.o -c /home/gnu/gr-customModule/lib/delay_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/delay_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/divide_impl.cc.o -c /home/gnu/gr-customModule/lib/divide_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/divide_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/fir_filter_blk_impl.cc.o -c /home/gnu/gr-customModule/lib/fir_filter_blk_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/fir_filter_blk_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/multiply_impl.cc.o -c /home/gnu/gr-customModule/lib/multiply_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/multiply_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/plateau_detector_fb_impl.cc.o -c /home/gnu/gr-customModule/lib/plateau_detector_fb_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/sample_and_hold_impl.cc.o -c /home/gnu/gr-customModule/lib/sample_and_hold_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/sample_and_hold_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/fir_filter.cc.o -c /home/gnu/gr-customModule/lib/fir_filter.cc",
+  "file": "/home/gnu/gr-customModule/lib/fir_filter.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/header_format_base.cc.o -c /home/gnu/gr-customModule/lib/header_format_base.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_format_base.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/header_format_counter.cc.o -c /home/gnu/gr-customModule/lib/header_format_counter.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_format_counter.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/header_format_default.cc.o -c /home/gnu/gr-customModule/lib/header_format_default.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_format_default.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/unpack_k_bits.cc.o -c /home/gnu/gr-customModule/lib/unpack_k_bits.cc",
+  "file": "/home/gnu/gr-customModule/lib/unpack_k_bits.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN -DGR_CTRLPORT -isystem /usr/local/include   -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_qa_header_format.cc.dir/header_buffer.cc.o -c /home/gnu/gr-customModule/lib/header_buffer.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_buffer.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/ofdm_sync_shunyu_impl.cc.o -c /home/gnu/gr-customModule/lib/ofdm_sync_shunyu_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/ofdm_sync_shunyu_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/complex_to_arg_impl.cc.o -c /home/gnu/gr-customModule/lib/complex_to_arg_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/complex_to_arg_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/complex_to_mag_squared_impl.cc.o -c /home/gnu/gr-customModule/lib/complex_to_mag_squared_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/complex_to_mag_squared_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/conjugate_cc_impl.cc.o -c /home/gnu/gr-customModule/lib/conjugate_cc_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/conjugate_cc_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/delay_impl.cc.o -c /home/gnu/gr-customModule/lib/delay_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/delay_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/divide_impl.cc.o -c /home/gnu/gr-customModule/lib/divide_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/divide_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/fir_filter_blk_impl.cc.o -c /home/gnu/gr-customModule/lib/fir_filter_blk_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/fir_filter_blk_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/multiply_impl.cc.o -c /home/gnu/gr-customModule/lib/multiply_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/multiply_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/plateau_detector_fb_impl.cc.o -c /home/gnu/gr-customModule/lib/plateau_detector_fb_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/sample_and_hold_impl.cc.o -c /home/gnu/gr-customModule/lib/sample_and_hold_impl.cc",
+  "file": "/home/gnu/gr-customModule/lib/sample_and_hold_impl.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/fir_filter.cc.o -c /home/gnu/gr-customModule/lib/fir_filter.cc",
+  "file": "/home/gnu/gr-customModule/lib/fir_filter.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/header_format_base.cc.o -c /home/gnu/gr-customModule/lib/header_format_base.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_format_base.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/header_format_counter.cc.o -c /home/gnu/gr-customModule/lib/header_format_counter.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_format_counter.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/header_format_default.cc.o -c /home/gnu/gr-customModule/lib/header_format_default.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_format_default.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/unpack_k_bits.cc.o -c /home/gnu/gr-customModule/lib/unpack_k_bits.cc",
+  "file": "/home/gnu/gr-customModule/lib/unpack_k_bits.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/lib",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -Dgnuradio_customModule_EXPORTS -I/home/gnu/gr-customModule/lib/../include -isystem /usr/local/include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/gnuradio-customModule.dir/header_buffer.cc.o -c /home/gnu/gr-customModule/lib/header_buffer.cc",
+  "file": "/home/gnu/gr-customModule/lib/header_buffer.cc"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/swig",
+  "command": "/usr/bin/c++     -g -O3 -DNDEBUG   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/_customModule_swig_doc_tag.dir/_customModule_swig_doc_tag.cpp.o -c /home/gnu/gr-customModule/build/swig/_customModule_swig_doc_tag.cpp",
+  "file": "/home/gnu/gr-customModule/build/swig/_customModule_swig_doc_tag.cpp"
+},
+{
+  "directory": "/home/gnu/gr-customModule/build/swig",
+  "command": "/usr/bin/c++  -DGR_CTRLPORT -DcustomModule_swig_EXPORTS -I/home/gnu/gr-customModule/build/swig -I/home/gnu/gr-customModule/swig -I/usr/local/include/gnuradio/swig -isystem /usr/include/python3.6m -isystem /usr/local/include -I/home/gnu/gr-customModule/lib/../include   -g -O3 -DNDEBUG -fPIC   -fvisibility=hidden -std=gnu++11 -o CMakeFiles/customModule_swig.dir/CMakeFiles/customModule_swig.dir/customModule_swigPYTHON_wrap.cxx.o -c /home/gnu/gr-customModule/build/swig/CMakeFiles/customModule_swig.dir/customModule_swigPYTHON_wrap.cxx",
+  "file": "/home/gnu/gr-customModule/build/swig/CMakeFiles/customModule_swig.dir/customModule_swigPYTHON_wrap.cxx"
+}
+]

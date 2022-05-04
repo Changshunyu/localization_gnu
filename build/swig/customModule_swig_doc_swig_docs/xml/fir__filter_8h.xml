@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="fir__filter_8h" kind="file" language="C++">
+    <compoundname>fir_filter.h</compoundname>
+    <includes local="no">gnuradio/filter/api.h</includes>
+    <includes local="no">gnuradio/gr_complex.h</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="28">
+        <label>cstdint</label>
+      </node>
+      <node id="25">
+        <label>fir_filter.h</label>
+        <link refid="fir__filter_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>vector</label>
+      </node>
+      <node id="27">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="26">
+        <label>gnuradio/filter/api.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1fir__filter" prot="public">gr::filter::kernel::fir_filter</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter_1_1kernel">gr::filter::kernel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2004,2010,2012,2018<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_FILTER_FIR_FILTER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_FILTER_FIR_FILTER_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gnuradio/filter/api.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gnuradio/gr_complex.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegr" kindref="compound">gr</ref><sp/>{</highlight></codeline>
+<codeline lineno="32" refid="namespacegr_1_1filter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">filter<sp/>{</highlight></codeline>
+<codeline lineno="33" refid="namespacegr_1_1filter_1_1kernel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">kernel<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>IN_T,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>OUT_T,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>TAP_T&gt;</highlight></codeline>
+<codeline lineno="36" refid="classgr_1_1filter_1_1kernel_1_1fir__filter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FILTER_API<sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>decimation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TAP_T&gt;&amp;<sp/>taps);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_taps(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;TAP_T&gt;&amp;<sp/>taps);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>update_tap(TAP_T<sp/>t,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;TAP_T&gt;<sp/>taps()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ntaps()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>OUT_T<sp/>filter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IN_T<sp/>input[]);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>filterN(OUT_T<sp/>output[],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IN_T<sp/>input[],<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>filterNdec(OUT_T<sp/>output[],</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IN_T<sp/>input[],</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>n,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>decimate);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55" refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1abe3f5886a6d68498a676cc5a47f72270" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;TAP_T&gt;<sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1abe3f5886a6d68498a676cc5a47f72270" kindref="member">d_taps</ref>;</highlight></codeline>
+<codeline lineno="56" refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1adeba3c949a67c5573d89d481906fe781" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1adeba3c949a67c5573d89d481906fe781" kindref="member">d_ntaps</ref>;</highlight></codeline>
+<codeline lineno="57" refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a3765ce21943724f2b2bda18237eb2229" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TAP_T**<sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a3765ce21943724f2b2bda18237eb2229" kindref="member">d_aligned_taps</ref>;</highlight></codeline>
+<codeline lineno="58" refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9cf355b3b27f2abdecc896cb0e8b42e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>OUT_T*<sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9cf355b3b27f2abdecc896cb0e8b42e2" kindref="member">d_output</ref>;</highlight></codeline>
+<codeline lineno="59" refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa69cab64a062e6892286317eb94d7066" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa69cab64a062e6892286317eb94d7066" kindref="member">d_align</ref>;</highlight></codeline>
+<codeline lineno="60" refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a212cf75b89ae290bce8cf4c72e54e6bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a212cf75b89ae290bce8cf4c72e54e6bd" kindref="member">d_naligned</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62" refid="namespacegr_1_1filter_1_1kernel_1a8639c99e2cfc3680b0fca192103e5c9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter&lt;float, float, float&gt;</ref><sp/><ref refid="namespacegr_1_1filter_1_1kernel_1a8639c99e2cfc3680b0fca192103e5c9b" kindref="member">fir_filter_fff</ref>;</highlight></codeline>
+<codeline lineno="63" refid="namespacegr_1_1filter_1_1kernel_1a1262ff76f6ac8db1310e3eff81cb51c1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter&lt;gr_complex, gr_complex, float&gt;</ref><sp/><ref refid="namespacegr_1_1filter_1_1kernel_1a1262ff76f6ac8db1310e3eff81cb51c1" kindref="member">fir_filter_ccf</ref>;</highlight></codeline>
+<codeline lineno="64" refid="namespacegr_1_1filter_1_1kernel_1a586eaffdd2e520f032d4d5eaf6764a9b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter&lt;float, gr_complex, gr_complex&gt;</ref><sp/><ref refid="namespacegr_1_1filter_1_1kernel_1a586eaffdd2e520f032d4d5eaf6764a9b" kindref="member">fir_filter_fcc</ref>;</highlight></codeline>
+<codeline lineno="65" refid="namespacegr_1_1filter_1_1kernel_1a27b343419254f9698b6243950bd1285c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter&lt;gr_complex, gr_complex, gr_complex&gt;</ref><sp/><ref refid="namespacegr_1_1filter_1_1kernel_1a27b343419254f9698b6243950bd1285c" kindref="member">fir_filter_ccc</ref>;</highlight></codeline>
+<codeline lineno="66" refid="namespacegr_1_1filter_1_1kernel_1a446f2d70d70919367ccb1d4e1b115fa4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter&lt;std::int16_t, gr_complex, gr_complex&gt;</ref><sp/><ref refid="namespacegr_1_1filter_1_1kernel_1a446f2d70d70919367ccb1d4e1b115fa4" kindref="member">fir_filter_scc</ref>;</highlight></codeline>
+<codeline lineno="67" refid="namespacegr_1_1filter_1_1kernel_1a2551422461738ab977687cfea7f1205d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">fir_filter&lt;float, std::int16_t, float&gt;</ref><sp/><ref refid="namespacegr_1_1filter_1_1kernel_1a2551422461738ab977687cfea7f1205d" kindref="member">fir_filter_fsf</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>kernel<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>filter<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>gr<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_FILTER_FIR_FILTER_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/gnu/gr-customModule/include/customModule/fir_filter.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="conjugate__cc__impl_8h" kind="file" language="C++">
+    <compoundname>conjugate_cc_impl.h</compoundname>
+    <includes local="no">gnuradio/blocks/conjugate_cc.h</includes>
+    <incdepgraph>
+      <node id="23">
+        <label>conjugate_cc_impl.h</label>
+        <link refid="conjugate__cc__impl_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>gnuradio/blocks/conjugate_cc.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc__impl" prot="public">gr::blocks::conjugate_cc_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/lib/conjugate_cc_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1blocks_1_1sample__and__hold" kind="class" language="C++" prot="public">
+    <compoundname>gr::blocks::sample_and_hold</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="sample__and__hold_8h" local="no">sample_and_hold.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1blocks_1_1sample__and__hold_1afe536d8fc0d69b0f45bf33fd25b40f37" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; T &gt; &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;sample_and_hold&lt;T&gt; &gt; gr::blocks::sample_and_hold&lt; T &gt;::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" line="47" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1sample__and__hold_1a4914b6e93808d143142a8ee3d9014781" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold_1afe536d8fc0d69b0f45bf33fd25b40f37" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::blocks::sample_and_hold&lt; T &gt;::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>sample and hold circuit </para>    </briefdescription>
+    <detaileddescription>
+<para>Samples the data stream (input stream 0) and holds the value if the control signal is 1 (input stream 1). </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>gr::blocks::sample_and_hold&lt; T &gt;</label>
+        <link refid="classgr_1_1blocks_1_1sample__and__hold"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>gr::blocks::sample_and_hold&lt; T &gt;</label>
+        <link refid="classgr_1_1blocks_1_1sample__and__hold"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" line="44" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" bodystart="43" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1sample__and__hold_1a4914b6e93808d143142a8ee3d9014781" prot="public" virt="non-virtual"><scope>gr::blocks::sample_and_hold</scope><name>make</name></member>
+      <member refid="classgr_1_1blocks_1_1sample__and__hold_1afe536d8fc0d69b0f45bf33fd25b40f37" prot="public" virt="non-virtual"><scope>gr::blocks::sample_and_hold</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

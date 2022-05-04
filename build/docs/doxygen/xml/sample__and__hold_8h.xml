@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="sample__and__hold_8h" kind="file" language="C++">
+    <compoundname>sample_and_hold.h</compoundname>
+    <includes local="no">gnuradio/blocks/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includes local="no">cstdint</includes>
+    <incdepgraph>
+      <node id="115">
+        <label>sample_and_hold.h</label>
+        <link refid="sample__and__hold_8h"/>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>cstdint</label>
+      </node>
+      <node id="117">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="116">
+        <label>gnuradio/blocks/api.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1sample__and__hold" prot="public">gr::blocks::sample_and_hold</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="fir__filter__blk__impl_8h" kind="file" language="C++">
+    <compoundname>fir_filter_blk_impl.h</compoundname>
+    <includes local="no">gnuradio/filter/fir_filter.h</includes>
+    <includes local="no">gnuradio/filter/fir_filter_blk.h</includes>
+    <incdepgraph>
+      <node id="54">
+        <label>gnuradio/filter/fir_filter.h</label>
+      </node>
+      <node id="53">
+        <label>fir_filter_blk_impl.h</label>
+        <link refid="fir__filter__blk__impl_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>gnuradio/filter/fir_filter_blk.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1fir__filter__blk__impl" prot="public">gr::filter::fir_filter_blk_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1filter" kind="namespace" language="C++">
+    <compoundname>gr::filter</compoundname>
+    <innerclass refid="classgr_1_1filter_1_1fir__filter__blk" prot="public">gr::filter::fir_filter_blk</innerclass>
+    <innernamespace refid="namespacegr_1_1filter_1_1kernel">gr::filter::kernel</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1ac4a0cd7e21a7e210454c415910a3b53b" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; gr_complex, gr_complex, gr_complex &gt;</type>
+        <definition>typedef fir_filter_blk&lt;gr_complex, gr_complex, gr_complex&gt; gr::filter::fir_filter_ccc</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_ccc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="75" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a3579591196cddb312c6099f8970a0040" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; gr_complex, gr_complex, float &gt;</type>
+        <definition>typedef fir_filter_blk&lt;gr_complex, gr_complex, float&gt; gr::filter::fir_filter_ccf</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_ccf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="76" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1ae2bc3e64eee8abd70391ecf2662ffec3" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; float, gr_complex, gr_complex &gt;</type>
+        <definition>typedef fir_filter_blk&lt;float, gr_complex, gr_complex&gt; gr::filter::fir_filter_fcc</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_fcc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="77" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a4603e316df3818b84523b7123b5a444b" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; float, float, float &gt;</type>
+        <definition>typedef fir_filter_blk&lt;float, float, float&gt; gr::filter::fir_filter_fff</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_fff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="78" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a12e3607660ca8b4aaf51762e6c03d82d" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; float, std::int16_t, float &gt;</type>
+        <definition>typedef fir_filter_blk&lt;float, std::int16_t, float&gt; gr::filter::fir_filter_fsf</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_fsf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="79" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1filter_1a0cf68e24c2900c50467b9e914378f7b8" prot="public" static="no">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; std::int16_t, gr_complex, gr_complex &gt;</type>
+        <definition>typedef fir_filter_blk&lt;std::int16_t, gr_complex, gr_complex&gt; gr::filter::fir_filter_scc</definition>
+        <argsstring></argsstring>
+        <name>fir_filter_scc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="80" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/include/customModule/fir_filter.h" line="32" column="1"/>
+  </compounddef>
+</doxygen>

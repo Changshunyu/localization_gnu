@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="fir__filter_8h" kind="file" language="C++">
+    <compoundname>fir_filter.h</compoundname>
+    <includes local="no">gnuradio/filter/api.h</includes>
+    <includes local="no">gnuradio/gr_complex.h</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="45">
+        <label>cstdint</label>
+      </node>
+      <node id="42">
+        <label>fir_filter.h</label>
+        <link refid="fir__filter_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>vector</label>
+      </node>
+      <node id="44">
+        <label>gnuradio/gr_complex.h</label>
+      </node>
+      <node id="43">
+        <label>gnuradio/filter/api.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1filter_1_1kernel_1_1fir__filter" prot="public">gr::filter::kernel::fir_filter</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter">gr::filter</innernamespace>
+    <innernamespace refid="namespacegr_1_1filter_1_1kernel">gr::filter::kernel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/include/customModule/fir_filter.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1blocks_1_1complex__to__arg" kind="class"><name>gr::blocks::complex_to_arg</name>
+    <member refid="classgr_1_1blocks_1_1complex__to__arg_1ac59a62f5be6544d362c32dbd53edf2f1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__arg_1a3649cdc54a66fb53edf025edae95d7b4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1complex__to__mag__squared" kind="class"><name>gr::blocks::complex_to_mag_squared</name>
+    <member refid="classgr_1_1blocks_1_1complex__to__mag__squared_1a2fc1d789a458808ee9575d97f2e764af" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__mag__squared_1ab53006d0abd2d83bc8d1f6659a9a72a4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1conjugate__cc" kind="class"><name>gr::blocks::conjugate_cc</name>
+    <member refid="classgr_1_1blocks_1_1conjugate__cc_1ab075e2e33c471fd7f601a019d8dd9bfa" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1conjugate__cc_1a9703ee1fdc3d541010caa729c34aaedc" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1delay" kind="class"><name>gr::blocks::delay</name>
+    <member refid="classgr_1_1blocks_1_1delay_1a459e4162535c2c3616ec39089d4fd7db" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1delay_1afb3f9733fb6b7f4f9c69dd397f1dcad5" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1blocks_1_1delay_1ac5f0f9cf44b84f2f6c77b1dbc8fc2ccf" kind="function"><name>dly</name></member>
+    <member refid="classgr_1_1blocks_1_1delay_1ad4c08709073a3f5e2f1729bc5c168c58" kind="function"><name>set_dly</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1divide" kind="class"><name>gr::blocks::divide</name>
+    <member refid="classgr_1_1blocks_1_1divide_1a8a79c18b57420d4f7899e85b655422cf" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1divide_1af6898065d7092c344436ce00ecf74994" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kind="class"><name>gr::filter::kernel::fir_filter</name>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1abe3f5886a6d68498a676cc5a47f72270" kind="variable"><name>d_taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1adeba3c949a67c5573d89d481906fe781" kind="variable"><name>d_ntaps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a3765ce21943724f2b2bda18237eb2229" kind="variable"><name>d_aligned_taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9cf355b3b27f2abdecc896cb0e8b42e2" kind="variable"><name>d_output</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa69cab64a062e6892286317eb94d7066" kind="variable"><name>d_align</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a212cf75b89ae290bce8cf4c72e54e6bd" kind="variable"><name>d_naligned</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa31ee2a3dbb41857ed5fcf2826aa689b" kind="function"><name>fir_filter</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a3492215481d30d7144599c8ec629d854" kind="function"><name>~fir_filter</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1af5a9421490ed0fdd5fb3984d6f9c3f74" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a91c03a5d09efb74c5143a3f903bfa2b9" kind="function"><name>update_tap</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a8df26e5a9478b6b896723208f31ccc05" kind="function"><name>taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aca64df28a84919a2ef00d8f1e221d6a9" kind="function"><name>ntaps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1afe48498a6f651c95cf4f7b41f48ed11c" kind="function"><name>filter</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a172474d6a76a79aed2f84289429a210c" kind="function"><name>filterN</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a4714282b3c49e9d4efb166367ab2d2dd" kind="function"><name>filterNdec</name></member>
+  </compound>
+  <compound refid="classgr_1_1filter_1_1fir__filter__blk" kind="class"><name>gr::filter::fir_filter_blk</name>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1aba5b72c974fee4db0a5db2c803a46312" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1a2719c9b1bdbe39ad10a9b50c8e4602fa" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1a9a32e0ec9acd9aadf709b79a8dc4e965" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1ab0fa850fb064bfd1167f92655cb88f65" kind="function"><name>taps</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1multiply" kind="class"><name>gr::blocks::multiply</name>
+    <member refid="classgr_1_1blocks_1_1multiply_1ab4bf3c222c08093ae9e05de3f552ba12" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1multiply_1a51c76b083f8c9701980f2aa0e9c60fe5" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1customModule_1_1ofdm__sync__shunyu" kind="class"><name>gr::customModule::ofdm_sync_shunyu</name>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu_1acaadad5b87e3b020440720bb733cd9ef" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu_1a3e4c896893d0a800657cff981b1ff00d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1plateau__detector__fb" kind="class"><name>gr::blocks::plateau_detector_fb</name>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a84d2609b23a4eb9860ade6f62c47f068" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a52504a01aff3f7e11511cb7500e1ca6a" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a329d6ff3b8f558d72d1715f35603851a" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a87108f096231fa68a235386b4dde19cb" kind="function"><name>threshold</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1sample__and__hold" kind="class"><name>gr::blocks::sample_and_hold</name>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold_1afe536d8fc0d69b0f45bf33fd25b40f37" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold_1a4914b6e93808d143142a8ee3d9014781" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1blocks" kind="namespace"><name>gr::blocks</name>
+    <member refid="namespacegr_1_1blocks_1a42a64e7853c006d5ce35c7521085e2e3" kind="typedef"><name>divide_ss</name></member>
+    <member refid="namespacegr_1_1blocks_1a459b192c49b49365a723530946e240aa" kind="typedef"><name>divide_ii</name></member>
+    <member refid="namespacegr_1_1blocks_1a2da706db5e765a2753bcfe47af7e2112" kind="typedef"><name>divide_ff</name></member>
+    <member refid="namespacegr_1_1blocks_1a827904b31f89b02ccba68ce0a8f44dad" kind="typedef"><name>divide_cc</name></member>
+    <member refid="namespacegr_1_1blocks_1a252741b89a625114e77928b2a2a74c04" kind="typedef"><name>multiply_ss</name></member>
+    <member refid="namespacegr_1_1blocks_1afc350affdc2ab67a3d75c3a403f35aba" kind="typedef"><name>multiply_ii</name></member>
+    <member refid="namespacegr_1_1blocks_1abe7378d89d84ef58c48eebdcc81b8265" kind="typedef"><name>multiply_ff</name></member>
+    <member refid="namespacegr_1_1blocks_1a8734ca9e383b87fbacd7fca031636539" kind="typedef"><name>multiply_cc</name></member>
+    <member refid="namespacegr_1_1blocks_1ac6d8156308044384852b7e3cae3bf620" kind="typedef"><name>sample_and_hold_bb</name></member>
+    <member refid="namespacegr_1_1blocks_1afb23bdd5ce940298daa101445050243e" kind="typedef"><name>sample_and_hold_ss</name></member>
+    <member refid="namespacegr_1_1blocks_1ae3a910c1d619f854640a86ad7c28e881" kind="typedef"><name>sample_and_hold_ii</name></member>
+    <member refid="namespacegr_1_1blocks_1adff7ddf32b9fbaffa5dfcb8747184bed" kind="typedef"><name>sample_and_hold_ff</name></member>
+  </compound>
+  <compound refid="namespacegr_1_1customModule" kind="namespace"><name>gr::customModule</name>
+  </compound>
+  <compound refid="namespacegr_1_1filter" kind="namespace"><name>gr::filter</name>
+    <member refid="namespacegr_1_1filter_1ac4a0cd7e21a7e210454c415910a3b53b" kind="typedef"><name>fir_filter_ccc</name></member>
+    <member refid="namespacegr_1_1filter_1a3579591196cddb312c6099f8970a0040" kind="typedef"><name>fir_filter_ccf</name></member>
+    <member refid="namespacegr_1_1filter_1ae2bc3e64eee8abd70391ecf2662ffec3" kind="typedef"><name>fir_filter_fcc</name></member>
+    <member refid="namespacegr_1_1filter_1a4603e316df3818b84523b7123b5a444b" kind="typedef"><name>fir_filter_fff</name></member>
+    <member refid="namespacegr_1_1filter_1a12e3607660ca8b4aaf51762e6c03d82d" kind="typedef"><name>fir_filter_fsf</name></member>
+    <member refid="namespacegr_1_1filter_1a0cf68e24c2900c50467b9e914378f7b8" kind="typedef"><name>fir_filter_scc</name></member>
+  </compound>
+  <compound refid="namespacegr_1_1filter_1_1kernel" kind="namespace"><name>gr::filter::kernel</name>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a8639c99e2cfc3680b0fca192103e5c9b" kind="typedef"><name>fir_filter_fff</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a1262ff76f6ac8db1310e3eff81cb51c1" kind="typedef"><name>fir_filter_ccf</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a586eaffdd2e520f032d4d5eaf6764a9b" kind="typedef"><name>fir_filter_fcc</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a27b343419254f9698b6243950bd1285c" kind="typedef"><name>fir_filter_ccc</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a446f2d70d70919367ccb1d4e1b115fa4" kind="typedef"><name>fir_filter_scc</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a2551422461738ab977687cfea7f1205d" kind="typedef"><name>fir_filter_fsf</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a55556492a68ba1f0d68114162c51a04b" kind="define"><name>CUSTOMMODULE_API</name></member>
+  </compound>
+  <compound refid="complex__to__arg_8h" kind="file"><name>complex_to_arg.h</name>
+  </compound>
+  <compound refid="complex__to__mag__squared_8h" kind="file"><name>complex_to_mag_squared.h</name>
+  </compound>
+  <compound refid="conjugate__cc_8h" kind="file"><name>conjugate_cc.h</name>
+  </compound>
+  <compound refid="delay_8h" kind="file"><name>delay.h</name>
+  </compound>
+  <compound refid="divide_8h" kind="file"><name>divide.h</name>
+  </compound>
+  <compound refid="fir__filter_8h" kind="file"><name>fir_filter.h</name>
+  </compound>
+  <compound refid="fir__filter__blk_8h" kind="file"><name>fir_filter_blk.h</name>
+  </compound>
+  <compound refid="multiply_8h" kind="file"><name>multiply.h</name>
+  </compound>
+  <compound refid="ofdm__sync__shunyu_8h" kind="file"><name>ofdm_sync_shunyu.h</name>
+  </compound>
+  <compound refid="plateau__detector__fb_8h" kind="file"><name>plateau_detector_fb.h</name>
+  </compound>
+  <compound refid="sample__and__hold_8h" kind="file"><name>sample_and_hold.h</name>
+  </compound>
+  <compound refid="dir_c2f9fdbe10678b2de723ca4ddf697d3d" kind="dir"><name>customModule</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+</doxygenindex>

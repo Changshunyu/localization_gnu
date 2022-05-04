@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="complex__to__mag__squared__impl_8h" kind="file" language="C++">
+    <compoundname>complex_to_mag_squared_impl.h</compoundname>
+    <includes local="no">gnuradio/blocks/complex_to_mag_squared.h</includes>
+    <incdepgraph>
+      <node id="16">
+        <label>complex_to_mag_squared_impl.h</label>
+        <link refid="complex__to__mag__squared__impl_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>gnuradio/blocks/complex_to_mag_squared.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl" prot="public">gr::blocks::complex_to_mag_squared_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1blocks">gr::blocks</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/lib/complex_to_mag_squared_impl.h"/>
+  </compounddef>
+</doxygen>

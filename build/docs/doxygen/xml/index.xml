@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1blocks_1_1complex__to__arg" kind="class"><name>gr::blocks::complex_to_arg</name>
+    <member refid="classgr_1_1blocks_1_1complex__to__arg_1ac59a62f5be6544d362c32dbd53edf2f1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__arg_1a3649cdc54a66fb53edf025edae95d7b4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1complex__to__arg__impl" kind="class"><name>gr::blocks::complex_to_arg_impl</name>
+    <member refid="classgr_1_1blocks_1_1complex__to__arg__impl_1a58ba64b708e6864f1ab23a7f43aec204" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__arg__impl_1aabbac05205903bd3933407fbe5296d85" kind="function"><name>complex_to_arg_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__arg__impl_1a2ec59f6ebace544b2dac985cb0d5bbc1" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1complex__to__mag__squared" kind="class"><name>gr::blocks::complex_to_mag_squared</name>
+    <member refid="classgr_1_1blocks_1_1complex__to__mag__squared_1a2fc1d789a458808ee9575d97f2e764af" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__mag__squared_1ab53006d0abd2d83bc8d1f6659a9a72a4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl" kind="class"><name>gr::blocks::complex_to_mag_squared_impl</name>
+    <member refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl_1a920dbd1fa3e890c31390cab083afb4d6" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl_1abd57af1d5b45ddff17a6369b22762f6c" kind="function"><name>complex_to_mag_squared_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl_1a0f51341a951fa44c2a115fe578dce745" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1conjugate__cc" kind="class"><name>gr::blocks::conjugate_cc</name>
+    <member refid="classgr_1_1blocks_1_1conjugate__cc_1ab075e2e33c471fd7f601a019d8dd9bfa" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1conjugate__cc_1a9703ee1fdc3d541010caa729c34aaedc" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1conjugate__cc__impl" kind="class"><name>gr::blocks::conjugate_cc_impl</name>
+    <member refid="classgr_1_1blocks_1_1conjugate__cc__impl_1a0758b4e4c6f929f53625b601982603f1" kind="function"><name>conjugate_cc_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1conjugate__cc__impl_1ada8f3962e783210e87c2c93176cc6ae7" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1delay" kind="class"><name>gr::blocks::delay</name>
+    <member refid="classgr_1_1blocks_1_1delay_1a459e4162535c2c3616ec39089d4fd7db" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1delay_1afb3f9733fb6b7f4f9c69dd397f1dcad5" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1blocks_1_1delay_1ac5f0f9cf44b84f2f6c77b1dbc8fc2ccf" kind="function"><name>dly</name></member>
+    <member refid="classgr_1_1blocks_1_1delay_1ad4c08709073a3f5e2f1729bc5c168c58" kind="function"><name>set_dly</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1delay__impl" kind="class"><name>gr::blocks::delay_impl</name>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1adc5a86004a0bfb41dd5d592a0d469724" kind="variable"><name>d_itemsize</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1a8efd951cd8f676080e506e2f9df4ee4a" kind="variable"><name>d_delta</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1aea6a95aba4c93ea3e11c411ae2d57e8e" kind="variable"><name>d_mutex_delay</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1a82c0846b833ab479db283aef3c7ef693" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1a10150e95ec3b9ded7401e7b538854f36" kind="function"><name>delay_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1a2d6264fa4e3f977c6eb174baceb42896" kind="function"><name>~delay_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1aa5ddd6528b136d2e19b0f6353a3aec4d" kind="function"><name>dly</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1aa9eac0ed77735ac7dab81017a736215e" kind="function"><name>set_dly</name></member>
+    <member refid="classgr_1_1blocks_1_1delay__impl_1a2d325fb0d8c853e40b0f563d7d32e856" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1divide" kind="class"><name>gr::blocks::divide</name>
+    <member refid="classgr_1_1blocks_1_1divide_1a8a79c18b57420d4f7899e85b655422cf" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1divide_1af6898065d7092c344436ce00ecf74994" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1divide__impl" kind="class"><name>gr::blocks::divide_impl</name>
+    <member refid="classgr_1_1blocks_1_1divide__impl_1afee168108fe7eb4fa5211a50b4ae6b4d" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1blocks_1_1divide__impl_1a4497c11b73e54972e349423583342be8" kind="function"><name>divide_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1divide__impl_1ae3f4ec16df3929848bd6e63399b06c8a" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kind="class"><name>gr::filter::kernel::fir_filter</name>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1abe3f5886a6d68498a676cc5a47f72270" kind="variable"><name>d_taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1adeba3c949a67c5573d89d481906fe781" kind="variable"><name>d_ntaps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a3765ce21943724f2b2bda18237eb2229" kind="variable"><name>d_aligned_taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a9cf355b3b27f2abdecc896cb0e8b42e2" kind="variable"><name>d_output</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa69cab64a062e6892286317eb94d7066" kind="variable"><name>d_align</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a212cf75b89ae290bce8cf4c72e54e6bd" kind="variable"><name>d_naligned</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aa31ee2a3dbb41857ed5fcf2826aa689b" kind="function"><name>fir_filter</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a3492215481d30d7144599c8ec629d854" kind="function"><name>~fir_filter</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1af5a9421490ed0fdd5fb3984d6f9c3f74" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a91c03a5d09efb74c5143a3f903bfa2b9" kind="function"><name>update_tap</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a8df26e5a9478b6b896723208f31ccc05" kind="function"><name>taps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1aca64df28a84919a2ef00d8f1e221d6a9" kind="function"><name>ntaps</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1afe48498a6f651c95cf4f7b41f48ed11c" kind="function"><name>filter</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a172474d6a76a79aed2f84289429a210c" kind="function"><name>filterN</name></member>
+    <member refid="classgr_1_1filter_1_1kernel_1_1fir__filter_1a4714282b3c49e9d4efb166367ab2d2dd" kind="function"><name>filterNdec</name></member>
+  </compound>
+  <compound refid="classgr_1_1filter_1_1fir__filter__blk" kind="class"><name>gr::filter::fir_filter_blk</name>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1aba5b72c974fee4db0a5db2c803a46312" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1a2719c9b1bdbe39ad10a9b50c8e4602fa" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1a9a32e0ec9acd9aadf709b79a8dc4e965" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk_1ab0fa850fb064bfd1167f92655cb88f65" kind="function"><name>taps</name></member>
+  </compound>
+  <compound refid="classgr_1_1filter_1_1fir__filter__blk__impl" kind="class"><name>gr::filter::fir_filter_blk_impl</name>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a8e9d55bb66b7d9c0616c60b51a40583a" kind="variable"><name>d_fir</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1aeafa1aba271972c61070ba94c3a7e6c8" kind="variable"><name>d_updated</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1aaa46d02af79b2bdfd2e4f632664b9066" kind="function"><name>fir_filter_blk_impl</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a3903a00f424d0cacf7d58aa6ee5d0d03" kind="function"><name>~fir_filter_blk_impl</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a48681f5bd094c9282801878d90e1b5eb" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1ab473d6c7c1af044b65c26f1d7f5ca1c0" kind="function"><name>taps</name></member>
+    <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a30f0a078f12c5b9070f4860f4abbed31" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1digital_1_1header__buffer" kind="class"><name>gr::digital::header_buffer</name>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a266fe26318e35eca36674c895d5c6231" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1aa674684c623f423c652adc78623ba1b3" kind="variable"><name>d_buffer</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a38916d1ffdddb22a800049403501a608" kind="variable"><name>d_input</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a97dc6589ea2b38e8d095e596fe47b57d" kind="function"><name>header_buffer</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1acd5b0a87ce62846446625bb9312b08a6" kind="function"><name>~header_buffer</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1af519c5fa14b0e36f22ae2e84ae456d96" kind="function"><name>clear</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1abd66364e2284ada85d88466a27de5eb1" kind="function"><name>length</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a7cd605333804e6e04aa0c53ca9d0b148" kind="function"><name>header</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a1077d48c4fcc9e933febdfccb42a074c" kind="function"><name>add_field8</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a6cf9f89abfdd3dcace2f3b2996fdb6ca" kind="function"><name>add_field16</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a86782016d8dca53a86e15c7da050d274" kind="function"><name>add_field32</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a54be38061f8ef8930082e0269572cad1" kind="function"><name>add_field64</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a07abe8c006a763599e618389aed5a8e4" kind="function"><name>insert_bit</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a790a99b9ba623fc93ad3e434aa786e64" kind="function"><name>extract_field8</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a64fde79f75a6559b250c3e8e5e56342c" kind="function"><name>extract_field16</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1a254103c5b6e478efa1966d6cdac23960" kind="function"><name>extract_field32</name></member>
+    <member refid="classgr_1_1digital_1_1header__buffer_1ac4b49676678d786e9c9b378962464d5a" kind="function"><name>extract_field64</name></member>
+  </compound>
+  <compound refid="classgr_1_1digital_1_1header__format__base" kind="class"><name>gr::digital::header_format_base</name>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a75e1a71f4ae157073a8430dcf247a84c" kind="enum"><name>state_t</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a75e1a71f4ae157073a8430dcf247a84ca16dfc49f94e86da45f2ee72a6fd5545d" kind="enumvalue"><name>STATE_SYNC_SEARCH</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a75e1a71f4ae157073a8430dcf247a84caea34dac0667ecb2b45a3984073e237d1" kind="enumvalue"><name>STATE_HAVE_SYNC</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a5c51fe5ff7b1e8bf3f5169b388ab771b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a68188f0d090ed7714601cecfa9db8a50" kind="variable"><name>d_state</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a215bc24b277bb10c79308fdf1503e40e" kind="variable"><name>d_hdr_reg</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a07a45e28050b53bb8f49e7e6e3c82399" kind="variable"><name>d_info</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a1dbf3bde87823470f48819db89e132d5" kind="variable"><name>d_logger</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1ac0504f677b7506f9acc2b204f8fbea75" kind="function"><name>header_format_base</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1ab47c2e30885850d805a9854345b630f5" kind="function"><name>~header_format_base</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a5a7b2939707146f2b28d7e91e04103c2" kind="function"><name>base</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1aba944a279dc29a7ec716f9a7cc36348b" kind="function"><name>formatter</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a474a23d04b7f43dee207cc4a56a433dc" kind="function"><name>format</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a2a29bbba93657362cb030dae2ca44fb9" kind="function"><name>header_nbits</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1adbde345d805bdd51191d4d19a066c421" kind="function"><name>header_nbytes</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1aa3e7d6bb51dab765439a53123da36061" kind="function"><name>enter_search</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a404596256ca742f4b3e6c11b001e0490" kind="function"><name>enter_have_sync</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a9680b0ad5fa7d472dcef59a60ec91b4c" kind="function"><name>enter_have_header</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a1bf6fe4f690b6484ff95b0f3b6facd57" kind="function"><name>header_ok</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__base_1a56f72e4249334964b941a96663221d10" kind="function"><name>header_payload</name></member>
+  </compound>
+  <compound refid="classgr_1_1digital_1_1header__format__counter" kind="class"><name>gr::digital::header_format_counter</name>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1a24ad3813dc9430f19d5df3c1a4a2f970" kind="variable"><name>d_counter</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1afe97a50bd376ae2f2fa1cd0bb15e4ad8" kind="function"><name>header_format_counter</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1a7a3c0413e251696cfae2d2f3fa85b91f" kind="function"><name>~header_format_counter</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1ad007a2f99cc378a43e8b9f487c827cf9" kind="function"><name>format</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1a79c254ed5440e408d7f04945edd2eb8f" kind="function"><name>header_nbits</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1af49d56bcabfe33dfdb2943ad8e8b59ee" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1a53f6e8e2c37a90a00606d3c44a36dd92" kind="function"><name>header_ok</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__counter_1a6d288a5a096bf434267b0c3500f07b33" kind="function"><name>header_payload</name></member>
+  </compound>
+  <compound refid="classgr_1_1digital_1_1header__format__default" kind="class"><name>gr::digital::header_format_default</name>
+    <member refid="classgr_1_1digital_1_1header__format__default_1ae6a83f256705b2dcd0f7da972cfc8f53" kind="variable"><name>d_access_code</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a106909b7bc602d0e33102193d8a7de63" kind="variable"><name>d_access_code_len</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a2e1a41342ea34aece31bfb536d72b8fb" kind="variable"><name>d_bps</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1ab1d05edf242fd4f9afc33b7dfde8f8b2" kind="variable"><name>d_data_reg</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a80c95f810309c1c2c002c13c7bf09014" kind="variable"><name>d_mask</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1ac433e0b39ded27be1761acbf6bd3b27c" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1abc8c47c589bf728f8521fe72077b371a" kind="variable"><name>d_pkt_len</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1af024044a5b4a6a43d0975eae00327124" kind="variable"><name>d_pkt_count</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a3b28410d6baab5fd8e626bbe35cde44c" kind="variable"><name>d_nbits</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1af3973a7899b82cd59dde82c0fae9351e" kind="function"><name>header_format_default</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a9448806c2e41d16657336f122ee4f78d" kind="function"><name>~header_format_default</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a2aab317253c30524d129f7a6c084432d" kind="function"><name>format</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a6a1a8f6ab47035bf6a2839e46c61c0a6" kind="function"><name>header_nbits</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1af5c71fef195772a38c94299d4e280ee0" kind="function"><name>set_access_code</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a91b425a39c1a7bc24349b2a873b8f663" kind="function"><name>access_code</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a8a21951e500dcb3c0fd1875f9d7dcad4" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a432cb7a1dc708a339b9fb36e372a9795" kind="function"><name>threshold</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a521928cf87a8400725c15a0c8e3b6924" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a4d9f6a5b3ccff4af4ef8ca346667d4c5" kind="function"><name>enter_have_sync</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a421ae7ce17a864b9aa02b4ac2929ea81" kind="function"><name>enter_have_header</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1a4ec381bc1d438a9d0bb7fc082bd7a1f9" kind="function"><name>header_ok</name></member>
+    <member refid="classgr_1_1digital_1_1header__format__default_1adca94d03e79f529e86c48617058a50f3" kind="function"><name>header_payload</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1multiply" kind="class"><name>gr::blocks::multiply</name>
+    <member refid="classgr_1_1blocks_1_1multiply_1ab4bf3c222c08093ae9e05de3f552ba12" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1multiply_1a51c76b083f8c9701980f2aa0e9c60fe5" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1multiply__impl" kind="class"><name>gr::blocks::multiply_impl</name>
+    <member refid="classgr_1_1blocks_1_1multiply__impl_1a6416fa6205d06f157f8d790ea714eb4b" kind="variable"><name>d_vlen</name></member>
+    <member refid="classgr_1_1blocks_1_1multiply__impl_1a66b87e012782ceb0027cd97cd923b93b" kind="function"><name>multiply_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1multiply__impl_1a4a7d93bc219288dfe342f703a1f495e3" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1customModule_1_1ofdm__sync__shunyu" kind="class"><name>gr::customModule::ofdm_sync_shunyu</name>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu_1acaadad5b87e3b020440720bb733cd9ef" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu_1a3e4c896893d0a800657cff981b1ff00d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1customModule_1_1ofdm__sync__shunyu__impl" kind="class"><name>gr::customModule::ofdm_sync_shunyu_impl</name>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu__impl_1a28ef6653b166842bb3f9762bd1567032" kind="variable"><name>d_plateau_detector</name></member>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu__impl_1abd82820755071a6b28d476d29bcd70cf" kind="function"><name>ofdm_sync_shunyu_impl</name></member>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu__impl_1a20cd25763faeaf2d0af5e491380b288e" kind="function"><name>~ofdm_sync_shunyu_impl</name></member>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu__impl_1aa9cc8a749cc40a643e8f0b2780ab7875" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1customModule_1_1ofdm__sync__shunyu__impl_1a478cc33d18c6e7b261681d2a7d13b0d7" kind="function"><name>threshold</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1plateau__detector__fb" kind="class"><name>gr::blocks::plateau_detector_fb</name>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a84d2609b23a4eb9860ade6f62c47f068" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a52504a01aff3f7e11511cb7500e1ca6a" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a329d6ff3b8f558d72d1715f35603851a" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a87108f096231fa68a235386b4dde19cb" kind="function"><name>threshold</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1plateau__detector__fb__impl" kind="class"><name>gr::blocks::plateau_detector_fb_impl</name>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a9f7b978eae46a97b3146cd8f810104c9" kind="variable"><name>d_max_len</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a1d8e625880365d1f515c334c345440b3" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a09a2c916b3d6b902a53aa193cfcf0830" kind="function"><name>plateau_detector_fb_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a1faf59cbb38dd6eed0a86007013fac35" kind="function"><name>~plateau_detector_fb_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a047c63d2b8c089d475ddf3ffec372263" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a134b0079835f1fa5425c574486bc95fd" kind="function"><name>general_work</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1ab0e56b0005d57cb77c185cbb601cf824" kind="function"><name>set_threshold</name></member>
+    <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a172007fd57030b5075f6c04e486321c5" kind="function"><name>threshold</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1sample__and__hold" kind="class"><name>gr::blocks::sample_and_hold</name>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold_1afe536d8fc0d69b0f45bf33fd25b40f37" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold_1a4914b6e93808d143142a8ee3d9014781" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1sample__and__hold__impl" kind="class"><name>gr::blocks::sample_and_hold_impl</name>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold__impl_1a07622efa9cef6bef5ce042f2f6a7c66d" kind="variable"><name>d_data</name></member>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold__impl_1a7afccf3997a442f750ce58159392ce45" kind="function"><name>sample_and_hold_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold__impl_1aa06c54d7e13c57ad016c2955c649cacd" kind="function"><name>~sample_and_hold_impl</name></member>
+    <member refid="classgr_1_1blocks_1_1sample__and__hold__impl_1a64808f5111d87cca7a8565afdd227335" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1blocks_1_1kernel_1_1unpack__k__bits" kind="class"><name>gr::blocks::kernel::unpack_k_bits</name>
+    <member refid="classgr_1_1blocks_1_1kernel_1_1unpack__k__bits_1a96e45e2d2f7109daaca192a2663418da" kind="variable"><name>d_k</name></member>
+    <member refid="classgr_1_1blocks_1_1kernel_1_1unpack__k__bits_1a491f3018fd04671c96e06ad364b5b384" kind="function"><name>unpack_k_bits</name></member>
+    <member refid="classgr_1_1blocks_1_1kernel_1_1unpack__k__bits_1aeadb4a664a6587b7e106a94cc5c65ec4" kind="function"><name>~unpack_k_bits</name></member>
+    <member refid="classgr_1_1blocks_1_1kernel_1_1unpack__k__bits_1a84d34884382012ca6e0e8efa7efff490" kind="function"><name>unpack</name></member>
+    <member refid="classgr_1_1blocks_1_1kernel_1_1unpack__k__bits_1a230bd9047f5ae1864db6d5718584cef7" kind="function"><name>unpack_rev</name></member>
+    <member refid="classgr_1_1blocks_1_1kernel_1_1unpack__k__bits_1af826cd3cd28e49f64a1844a52ddd6938" kind="function"><name>k</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1blocks" kind="namespace"><name>gr::blocks</name>
+    <member refid="namespacegr_1_1blocks_1a42a64e7853c006d5ce35c7521085e2e3" kind="typedef"><name>divide_ss</name></member>
+    <member refid="namespacegr_1_1blocks_1a459b192c49b49365a723530946e240aa" kind="typedef"><name>divide_ii</name></member>
+    <member refid="namespacegr_1_1blocks_1a2da706db5e765a2753bcfe47af7e2112" kind="typedef"><name>divide_ff</name></member>
+    <member refid="namespacegr_1_1blocks_1a827904b31f89b02ccba68ce0a8f44dad" kind="typedef"><name>divide_cc</name></member>
+    <member refid="namespacegr_1_1blocks_1a252741b89a625114e77928b2a2a74c04" kind="typedef"><name>multiply_ss</name></member>
+    <member refid="namespacegr_1_1blocks_1afc350affdc2ab67a3d75c3a403f35aba" kind="typedef"><name>multiply_ii</name></member>
+    <member refid="namespacegr_1_1blocks_1abe7378d89d84ef58c48eebdcc81b8265" kind="typedef"><name>multiply_ff</name></member>
+    <member refid="namespacegr_1_1blocks_1a8734ca9e383b87fbacd7fca031636539" kind="typedef"><name>multiply_cc</name></member>
+    <member refid="namespacegr_1_1blocks_1ac6d8156308044384852b7e3cae3bf620" kind="typedef"><name>sample_and_hold_bb</name></member>
+    <member refid="namespacegr_1_1blocks_1afb23bdd5ce940298daa101445050243e" kind="typedef"><name>sample_and_hold_ss</name></member>
+    <member refid="namespacegr_1_1blocks_1ae3a910c1d619f854640a86ad7c28e881" kind="typedef"><name>sample_and_hold_ii</name></member>
+    <member refid="namespacegr_1_1blocks_1adff7ddf32b9fbaffa5dfcb8747184bed" kind="typedef"><name>sample_and_hold_ff</name></member>
+  </compound>
+  <compound refid="namespacegr_1_1blocks_1_1kernel" kind="namespace"><name>gr::blocks::kernel</name>
+  </compound>
+  <compound refid="namespacegr_1_1customModule" kind="namespace"><name>gr::customModule</name>
+  </compound>
+  <compound refid="namespacegr_1_1digital" kind="namespace"><name>gr::digital</name>
+  </compound>
+  <compound refid="namespacegr_1_1filter" kind="namespace"><name>gr::filter</name>
+    <member refid="namespacegr_1_1filter_1ac4a0cd7e21a7e210454c415910a3b53b" kind="typedef"><name>fir_filter_ccc</name></member>
+    <member refid="namespacegr_1_1filter_1a3579591196cddb312c6099f8970a0040" kind="typedef"><name>fir_filter_ccf</name></member>
+    <member refid="namespacegr_1_1filter_1ae2bc3e64eee8abd70391ecf2662ffec3" kind="typedef"><name>fir_filter_fcc</name></member>
+    <member refid="namespacegr_1_1filter_1a4603e316df3818b84523b7123b5a444b" kind="typedef"><name>fir_filter_fff</name></member>
+    <member refid="namespacegr_1_1filter_1a12e3607660ca8b4aaf51762e6c03d82d" kind="typedef"><name>fir_filter_fsf</name></member>
+    <member refid="namespacegr_1_1filter_1a0cf68e24c2900c50467b9e914378f7b8" kind="typedef"><name>fir_filter_scc</name></member>
+  </compound>
+  <compound refid="namespacegr_1_1filter_1_1kernel" kind="namespace"><name>gr::filter::kernel</name>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a8639c99e2cfc3680b0fca192103e5c9b" kind="typedef"><name>fir_filter_fff</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a1262ff76f6ac8db1310e3eff81cb51c1" kind="typedef"><name>fir_filter_ccf</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a586eaffdd2e520f032d4d5eaf6764a9b" kind="typedef"><name>fir_filter_fcc</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a27b343419254f9698b6243950bd1285c" kind="typedef"><name>fir_filter_ccc</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a446f2d70d70919367ccb1d4e1b115fa4" kind="typedef"><name>fir_filter_scc</name></member>
+    <member refid="namespacegr_1_1filter_1_1kernel_1a2551422461738ab977687cfea7f1205d" kind="typedef"><name>fir_filter_fsf</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a55556492a68ba1f0d68114162c51a04b" kind="define"><name>CUSTOMMODULE_API</name></member>
+  </compound>
+  <compound refid="complex__to__arg_8h" kind="file"><name>complex_to_arg.h</name>
+  </compound>
+  <compound refid="complex__to__arg__impl_8h" kind="file"><name>complex_to_arg_impl.h</name>
+  </compound>
+  <compound refid="complex__to__mag__squared_8h" kind="file"><name>complex_to_mag_squared.h</name>
+  </compound>
+  <compound refid="complex__to__mag__squared__impl_8h" kind="file"><name>complex_to_mag_squared_impl.h</name>
+  </compound>
+  <compound refid="conjugate__cc_8h" kind="file"><name>conjugate_cc.h</name>
+  </compound>
+  <compound refid="conjugate__cc__impl_8h" kind="file"><name>conjugate_cc_impl.h</name>
+  </compound>
+  <compound refid="delay_8h" kind="file"><name>delay.h</name>
+  </compound>
+  <compound refid="delay__impl_8h" kind="file"><name>delay_impl.h</name>
+  </compound>
+  <compound refid="divide_8h" kind="file"><name>divide.h</name>
+  </compound>
+  <compound refid="divide__impl_8h" kind="file"><name>divide_impl.h</name>
+  </compound>
+  <compound refid="fir__filter_8h" kind="file"><name>fir_filter.h</name>
+  </compound>
+  <compound refid="fir__filter__blk_8h" kind="file"><name>fir_filter_blk.h</name>
+  </compound>
+  <compound refid="fir__filter__blk__impl_8h" kind="file"><name>fir_filter_blk_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="header__buffer_8h" kind="file"><name>header_buffer.h</name>
+  </compound>
+  <compound refid="header__format__base_8h" kind="file"><name>header_format_base.h</name>
+  </compound>
+  <compound refid="header__format__counter_8h" kind="file"><name>header_format_counter.h</name>
+  </compound>
+  <compound refid="header__format__default_8h" kind="file"><name>header_format_default.h</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="multiply_8h" kind="file"><name>multiply.h</name>
+  </compound>
+  <compound refid="multiply__impl_8h" kind="file"><name>multiply_impl.h</name>
+  </compound>
+  <compound refid="ofdm__sync__shunyu_8h" kind="file"><name>ofdm_sync_shunyu.h</name>
+  </compound>
+  <compound refid="ofdm__sync__shunyu__impl_8h" kind="file"><name>ofdm_sync_shunyu_impl.h</name>
+  </compound>
+  <compound refid="plateau__detector__fb_8h" kind="file"><name>plateau_detector_fb.h</name>
+  </compound>
+  <compound refid="plateau__detector__fb__impl_8h" kind="file"><name>plateau_detector_fb_impl.h</name>
+  </compound>
+  <compound refid="sample__and__hold_8h" kind="file"><name>sample_and_hold.h</name>
+  </compound>
+  <compound refid="sample__and__hold__impl_8h" kind="file"><name>sample_and_hold_impl.h</name>
+  </compound>
+  <compound refid="unpack__k__bits_8h" kind="file"><name>unpack_k_bits.h</name>
+  </compound>
+  <compound refid="xoroshiro128p_8h" kind="file"><name>xoroshiro128p.h</name>
+    <member refid="xoroshiro128p_8h_1a616a08c6441f9c1651d475401e245f3d" kind="function"><name>rotl</name></member>
+    <member refid="xoroshiro128p_8h_1afd45471c525f2fc6a1d279f018d2bf25" kind="function"><name>xoroshiro128p_next</name></member>
+    <member refid="xoroshiro128p_8h_1a5de6ec358caeb23d9ed84bcae9c1b68e" kind="function"><name>xoroshiro128p_jump</name></member>
+    <member refid="xoroshiro128p_8h_1a1f29705017628be113d344160ed33063" kind="function"><name>splitmix64_next</name></member>
+    <member refid="xoroshiro128p_8h_1a060de795826a0b35f8d9dceea724d8c1" kind="function"><name>xoroshiro128p_seed</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_c2f9fdbe10678b2de723ca4ddf697d3d" kind="dir"><name>customModule</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

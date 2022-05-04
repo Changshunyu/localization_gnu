@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1digital" kind="namespace" language="C++">
+    <compoundname>gr::digital</compoundname>
+    <innerclass refid="classgr_1_1digital_1_1header__buffer" prot="public">gr::digital::header_buffer</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__base" prot="public">gr::digital::header_format_base</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__counter" prot="public">gr::digital::header_format_counter</innerclass>
+    <innerclass refid="classgr_1_1digital_1_1header__format__default" prot="public">gr::digital::header_format_default</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/lib/header_buffer.h" line="31" column="1"/>
+  </compounddef>
+</doxygen>

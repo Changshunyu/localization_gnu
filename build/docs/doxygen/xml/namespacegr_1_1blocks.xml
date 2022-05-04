@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1blocks" kind="namespace" language="C++">
+    <compoundname>gr::blocks</compoundname>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg" prot="public">gr::blocks::complex_to_arg</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__arg__impl" prot="public">gr::blocks::complex_to_arg_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared" prot="public">gr::blocks::complex_to_mag_squared</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1complex__to__mag__squared__impl" prot="public">gr::blocks::complex_to_mag_squared_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc" prot="public">gr::blocks::conjugate_cc</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1conjugate__cc__impl" prot="public">gr::blocks::conjugate_cc_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1delay" prot="public">gr::blocks::delay</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1delay__impl" prot="public">gr::blocks::delay_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1divide" prot="public">gr::blocks::divide</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1divide__impl" prot="public">gr::blocks::divide_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply" prot="public">gr::blocks::multiply</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1multiply__impl" prot="public">gr::blocks::multiply_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1plateau__detector__fb" prot="public">gr::blocks::plateau_detector_fb</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1plateau__detector__fb__impl" prot="public">gr::blocks::plateau_detector_fb_impl</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1sample__and__hold" prot="public">gr::blocks::sample_and_hold</innerclass>
+    <innerclass refid="classgr_1_1blocks_1_1sample__and__hold__impl" prot="public">gr::blocks::sample_and_hold_impl</innerclass>
+    <innernamespace refid="namespacegr_1_1blocks_1_1kernel">gr::blocks::kernel</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a42a64e7853c006d5ce35c7521085e2e3" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef divide&lt;std::int16_t&gt; gr::blocks::divide_ss</definition>
+        <argsstring></argsstring>
+        <name>divide_ss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/divide.h" line="51" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/divide.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a459b192c49b49365a723530946e240aa" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef divide&lt;std::int32_t&gt; gr::blocks::divide_ii</definition>
+        <argsstring></argsstring>
+        <name>divide_ii</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/divide.h" line="52" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/divide.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a2da706db5e765a2753bcfe47af7e2112" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; float &gt;</type>
+        <definition>typedef divide&lt;float&gt; gr::blocks::divide_ff</definition>
+        <argsstring></argsstring>
+        <name>divide_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/divide.h" line="53" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/divide.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a827904b31f89b02ccba68ce0a8f44dad" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1divide" kindref="compound">divide</ref>&lt; gr_complex &gt;</type>
+        <definition>typedef divide&lt;gr_complex&gt; gr::blocks::divide_cc</definition>
+        <argsstring></argsstring>
+        <name>divide_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/divide.h" line="54" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/divide.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a252741b89a625114e77928b2a2a74c04" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef multiply&lt;std::int16_t&gt; gr::blocks::multiply_ss</definition>
+        <argsstring></argsstring>
+        <name>multiply_ss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/multiply.h" line="51" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/multiply.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1afc350affdc2ab67a3d75c3a403f35aba" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef multiply&lt;std::int32_t&gt; gr::blocks::multiply_ii</definition>
+        <argsstring></argsstring>
+        <name>multiply_ii</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/multiply.h" line="52" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/multiply.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1abe7378d89d84ef58c48eebdcc81b8265" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; float &gt;</type>
+        <definition>typedef multiply&lt;float&gt; gr::blocks::multiply_ff</definition>
+        <argsstring></argsstring>
+        <name>multiply_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/multiply.h" line="53" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/multiply.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1a8734ca9e383b87fbacd7fca031636539" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; gr_complex &gt;</type>
+        <definition>typedef multiply&lt;gr_complex&gt; gr::blocks::multiply_cc</definition>
+        <argsstring></argsstring>
+        <name>multiply_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/multiply.h" line="54" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/multiply.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ac6d8156308044384852b7e3cae3bf620" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; std::uint8_t &gt;</type>
+        <definition>typedef sample_and_hold&lt;std::uint8_t&gt; gr::blocks::sample_and_hold_bb</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_bb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" line="52" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1afb23bdd5ce940298daa101445050243e" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; std::int16_t &gt;</type>
+        <definition>typedef sample_and_hold&lt;std::int16_t&gt; gr::blocks::sample_and_hold_ss</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_ss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" line="53" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1ae3a910c1d619f854640a86ad7c28e881" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; std::int32_t &gt;</type>
+        <definition>typedef sample_and_hold&lt;std::int32_t&gt; gr::blocks::sample_and_hold_ii</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_ii</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" line="54" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacegr_1_1blocks_1adff7ddf32b9fbaffa5dfcb8747184bed" prot="public" static="no">
+        <type><ref refid="classgr_1_1blocks_1_1sample__and__hold" kindref="compound">sample_and_hold</ref>&lt; float &gt;</type>
+        <definition>typedef sample_and_hold&lt;float&gt; gr::blocks::sample_and_hold_ff</definition>
+        <argsstring></argsstring>
+        <name>sample_and_hold_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" line="55" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/sample_and_hold.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/include/customModule/complex_to_arg.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>

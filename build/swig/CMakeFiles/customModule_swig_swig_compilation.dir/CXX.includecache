@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gnu/gr-customModule/swig/customModule_swig.i
+gnuradio.i
+/home/gnu/gr-customModule/swig/gnuradio.i
+customModule_swig_doc.i
+/home/gnu/gr-customModule/swig/customModule_swig_doc.i
+customModule/ofdm_sync_shunyu.h
+/home/gnu/gr-customModule/swig/customModule/ofdm_sync_shunyu.h
+customModule/ofdm_sync_shunyu.h
+/home/gnu/gr-customModule/swig/customModule/ofdm_sync_shunyu.h
+

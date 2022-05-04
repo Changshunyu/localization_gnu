@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1blocks_1_1complex__to__arg__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::blocks::complex_to_arg_impl</compoundname>
+    <basecompoundref refid="classgr_1_1blocks_1_1complex__to__arg" prot="public" virt="non-virtual">gr::blocks::complex_to_arg</basecompoundref>
+    <includes refid="complex__to__arg__impl_8h" local="no">complex_to_arg_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1complex__to__arg__impl_1a58ba64b708e6864f1ab23a7f43aec204" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::complex_to_arg_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/complex_to_arg_impl.h" line="33" column="1" bodyfile="/home/gnu/gr-customModule/lib/complex_to_arg_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1complex__to__arg__impl_1aabbac05205903bd3933407fbe5296d85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::complex_to_arg_impl::complex_to_arg_impl</definition>
+        <argsstring>(size_t vlen)</argsstring>
+        <name>complex_to_arg_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/complex_to_arg_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1complex__to__arg__impl_1a2ec59f6ebace544b2dac985cb0d5bbc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::complex_to_arg_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/complex_to_arg_impl.h" line="38" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>gr::blocks::complex_to_arg</label>
+        <link refid="classgr_1_1blocks_1_1complex__to__arg"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>sync_block</label>
+      </node>
+      <node id="5">
+        <label>gr::blocks::complex_to_arg_impl</label>
+        <link refid="classgr_1_1blocks_1_1complex__to__arg__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>gr::blocks::complex_to_arg</label>
+        <link refid="classgr_1_1blocks_1_1complex__to__arg"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::blocks::complex_to_arg_impl</label>
+        <link refid="classgr_1_1blocks_1_1complex__to__arg__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gnu/gr-customModule/lib/complex_to_arg_impl.h" line="32" column="1" bodyfile="/home/gnu/gr-customModule/lib/complex_to_arg_impl.h" bodystart="31" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1complex__to__arg__impl_1aabbac05205903bd3933407fbe5296d85" prot="public" virt="non-virtual"><scope>gr::blocks::complex_to_arg_impl</scope><name>complex_to_arg_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1complex__to__arg__impl_1a58ba64b708e6864f1ab23a7f43aec204" prot="private" virt="non-virtual"><scope>gr::blocks::complex_to_arg_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1blocks_1_1complex__to__arg_1a3649cdc54a66fb53edf025edae95d7b4" prot="public" virt="non-virtual"><scope>gr::blocks::complex_to_arg_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1blocks_1_1complex__to__arg_1ac59a62f5be6544d362c32dbd53edf2f1" prot="public" virt="non-virtual"><scope>gr::blocks::complex_to_arg_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1blocks_1_1complex__to__arg__impl_1a2ec59f6ebace544b2dac985cb0d5bbc1" prot="public" virt="non-virtual"><scope>gr::blocks::complex_to_arg_impl</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

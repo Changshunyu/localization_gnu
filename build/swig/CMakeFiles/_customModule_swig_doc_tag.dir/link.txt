@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -O3 -DNDEBUG   CMakeFiles/_customModule_swig_doc_tag.dir/_customModule_swig_doc_tag.cpp.o  -o _customModule_swig_doc_tag 

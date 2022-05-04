@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1blocks_1_1plateau__detector__fb__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::blocks::plateau_detector_fb_impl</compoundname>
+    <basecompoundref refid="classgr_1_1blocks_1_1plateau__detector__fb" prot="public" virt="non-virtual">gr::blocks::plateau_detector_fb</basecompoundref>
+    <includes refid="plateau__detector__fb__impl_8h" local="no">plateau_detector_fb_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a9f7b978eae46a97b3146cd8f810104c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::plateau_detector_fb_impl::d_max_len</definition>
+        <argsstring></argsstring>
+        <name>d_max_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="34" column="1" bodyfile="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a1d8e625880365d1f515c334c345440b3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::blocks::plateau_detector_fb_impl::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="35" column="1" bodyfile="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a09a2c916b3d6b902a53aa193cfcf0830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::plateau_detector_fb_impl::plateau_detector_fb_impl</definition>
+        <argsstring>(int max_len, float threshold)</argsstring>
+        <name>plateau_detector_fb_impl</name>
+        <param>
+          <type>int</type>
+          <declname>max_len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a1faf59cbb38dd6eed0a86007013fac35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::plateau_detector_fb_impl::~plateau_detector_fb_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~plateau_detector_fb_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a047c63d2b8c089d475ddf3ffec372263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::plateau_detector_fb_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a134b0079835f1fa5425c574486bc95fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::plateau_detector_fb_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1ab0e56b0005d57cb77c185cbb601cf824" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::blocks::plateau_detector_fb_impl::set_threshold</definition>
+        <argsstring>(float threshold)</argsstring>
+        <name>set_threshold</name>
+        <reimplements refid="classgr_1_1blocks_1_1plateau__detector__fb_1a329d6ff3b8f558d72d1715f35603851a">set_threshold</reimplements>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a172007fd57030b5075f6c04e486321c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>virtual float gr::blocks::plateau_detector_fb_impl::threshold</definition>
+        <argsstring>() const</argsstring>
+        <name>threshold</name>
+        <reimplements refid="classgr_1_1blocks_1_1plateau__detector__fb_1a87108f096231fa68a235386b4dde19cb">threshold</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="123">
+        <label>gr::blocks::plateau_detector_fb</label>
+        <link refid="classgr_1_1blocks_1_1plateau__detector__fb"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>block</label>
+      </node>
+      <node id="122">
+        <label>gr::blocks::plateau_detector_fb_impl</label>
+        <link refid="classgr_1_1blocks_1_1plateau__detector__fb__impl"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="126">
+        <label>gr::blocks::plateau_detector_fb</label>
+        <link refid="classgr_1_1blocks_1_1plateau__detector__fb"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>block</label>
+      </node>
+      <node id="125">
+        <label>gr::blocks::plateau_detector_fb_impl</label>
+        <link refid="classgr_1_1blocks_1_1plateau__detector__fb__impl"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" line="32" column="1" bodyfile="/home/gnu/gr-customModule/lib/plateau_detector_fb_impl.h" bodystart="31" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a9f7b978eae46a97b3146cd8f810104c9" prot="private" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>d_max_len</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a1d8e625880365d1f515c334c345440b3" prot="private" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a047c63d2b8c089d475ddf3ffec372263" prot="public" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a134b0079835f1fa5425c574486bc95fd" prot="public" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a52504a01aff3f7e11511cb7500e1ca6a" prot="public" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a09a2c916b3d6b902a53aa193cfcf0830" prot="public" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>plateau_detector_fb_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1ab0e56b0005d57cb77c185cbb601cf824" prot="public" virt="virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>set_threshold</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb_1a84d2609b23a4eb9860ade6f62c47f068" prot="public" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a172007fd57030b5075f6c04e486321c5" prot="public" virt="virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>threshold</name></member>
+      <member refid="classgr_1_1blocks_1_1plateau__detector__fb__impl_1a1faf59cbb38dd6eed0a86007013fac35" prot="public" virt="non-virtual"><scope>gr::blocks::plateau_detector_fb_impl</scope><name>~plateau_detector_fb_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

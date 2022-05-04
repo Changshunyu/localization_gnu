@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_c2f9fdbe10678b2de723ca4ddf697d3d" kind="dir">
+    <compoundname>customModule</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="complex__to__arg_8h">complex_to_arg.h</innerfile>
+    <innerfile refid="complex__to__mag__squared_8h">complex_to_mag_squared.h</innerfile>
+    <innerfile refid="conjugate__cc_8h">conjugate_cc.h</innerfile>
+    <innerfile refid="delay_8h">delay.h</innerfile>
+    <innerfile refid="divide_8h">divide.h</innerfile>
+    <innerfile refid="fir__filter_8h">fir_filter.h</innerfile>
+    <innerfile refid="fir__filter__blk_8h">fir_filter_blk.h</innerfile>
+    <innerfile refid="multiply_8h">multiply.h</innerfile>
+    <innerfile refid="ofdm__sync__shunyu_8h">ofdm_sync_shunyu.h</innerfile>
+    <innerfile refid="plateau__detector__fb_8h">plateau_detector_fb.h</innerfile>
+    <innerfile refid="sample__and__hold_8h">sample_and_hold.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/include/customModule/"/>
+  </compounddef>
+</doxygen>

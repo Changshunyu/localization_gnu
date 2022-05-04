@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1blocks_1_1multiply" kind="class" language="C++" prot="public">
+    <compoundname>gr::blocks::multiply</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="multiply_8h" local="no">multiply.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1blocks_1_1multiply_1ab4bf3c222c08093ae9e05de3f552ba12" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1blocks_1_1multiply" kindref="compound">multiply</ref>&lt; T &gt; &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;multiply&lt;T&gt; &gt; gr::blocks::multiply&lt; T &gt;::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/multiply.h" line="46" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/multiply.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1multiply_1a51c76b083f8c9701980f2aa0e9c60fe5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1blocks_1_1multiply_1ab4bf3c222c08093ae9e05de3f552ba12" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::blocks::multiply&lt; T &gt;::make</definition>
+        <argsstring>(size_t vlen=1)</argsstring>
+        <name>make</name>
+        <param>
+          <type>size_t</type>
+          <declname>vlen</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/multiply.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>output = prod (input_0, input_1, ...) </para>    </briefdescription>
+    <detaileddescription>
+<para>Multiply across all input streams. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>gr::blocks::multiply&lt; T &gt;</label>
+        <link refid="classgr_1_1blocks_1_1multiply"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>gr::blocks::multiply&lt; T &gt;</label>
+        <link refid="classgr_1_1blocks_1_1multiply"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gnu/gr-customModule/include/customModule/multiply.h" line="43" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/multiply.h" bodystart="42" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1multiply_1a51c76b083f8c9701980f2aa0e9c60fe5" prot="public" virt="non-virtual"><scope>gr::blocks::multiply</scope><name>make</name></member>
+      <member refid="classgr_1_1blocks_1_1multiply_1ab4bf3c222c08093ae9e05de3f552ba12" prot="public" virt="non-virtual"><scope>gr::blocks::multiply</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

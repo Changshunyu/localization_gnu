@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="complex__to__arg__impl_8h">complex_to_arg_impl.h</innerfile>
+    <innerfile refid="complex__to__mag__squared__impl_8h">complex_to_mag_squared_impl.h</innerfile>
+    <innerfile refid="conjugate__cc__impl_8h">conjugate_cc_impl.h</innerfile>
+    <innerfile refid="delay__impl_8h">delay_impl.h</innerfile>
+    <innerfile refid="divide__impl_8h">divide_impl.h</innerfile>
+    <innerfile refid="fir__filter__blk__impl_8h">fir_filter_blk_impl.h</innerfile>
+    <innerfile refid="header__buffer_8h">header_buffer.h</innerfile>
+    <innerfile refid="header__format__base_8h">header_format_base.h</innerfile>
+    <innerfile refid="header__format__counter_8h">header_format_counter.h</innerfile>
+    <innerfile refid="header__format__default_8h">header_format_default.h</innerfile>
+    <innerfile refid="multiply__impl_8h">multiply_impl.h</innerfile>
+    <innerfile refid="ofdm__sync__shunyu__impl_8h">ofdm_sync_shunyu_impl.h</innerfile>
+    <innerfile refid="plateau__detector__fb__impl_8h">plateau_detector_fb_impl.h</innerfile>
+    <innerfile refid="sample__and__hold__impl_8h">sample_and_hold_impl.h</innerfile>
+    <innerfile refid="unpack__k__bits_8h">unpack_k_bits.h</innerfile>
+    <innerfile refid="xoroshiro128p_8h">xoroshiro128p.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/gnu/gr-customModule/lib/"/>
+  </compounddef>
+</doxygen>

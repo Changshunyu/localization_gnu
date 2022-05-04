@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1filter_1_1fir__filter__blk__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::filter::fir_filter_blk_impl</compoundname>
+    <basecompoundref refid="classgr_1_1filter_1_1fir__filter__blk" prot="public" virt="non-virtual">gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;</basecompoundref>
+    <includes refid="fir__filter__blk__impl_8h" local="no">fir_filter_blk_impl.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class IN_T</type>
+      </param>
+      <param>
+        <type>class OUT_T</type>
+      </param>
+      <param>
+        <type>class TAP_T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fir__filter__blk__impl_1a8e9d55bb66b7d9c0616c60b51a40583a" prot="private" static="no" mutable="no">
+        <type><ref refid="classgr_1_1filter_1_1kernel_1_1fir__filter" kindref="compound">kernel::fir_filter</ref>&lt; IN_T, OUT_T, TAP_T &gt; *</type>
+        <definition>kernel::fir_filter&lt;IN_T, OUT_T, TAP_T&gt;* gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;::d_fir</definition>
+        <argsstring></argsstring>
+        <name>d_fir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="36" column="1" bodyfile="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1filter_1_1fir__filter__blk__impl_1aeafa1aba271972c61070ba94c3a7e6c8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="37" column="1" bodyfile="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk__impl_1aaa46d02af79b2bdfd2e4f632664b9066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;::fir_filter_blk_impl</definition>
+        <argsstring>(int decimation, const std::vector&lt; TAP_T &gt; &amp;taps)</argsstring>
+        <name>fir_filter_blk_impl</name>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; TAP_T &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk__impl_1a3903a00f424d0cacf7d58aa6ee5d0d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;::~fir_filter_blk_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~fir_filter_blk_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk__impl_1a48681f5bd094c9282801878d90e1b5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;::set_taps</definition>
+        <argsstring>(const std::vector&lt; TAP_T &gt; &amp;taps)</argsstring>
+        <name>set_taps</name>
+        <reimplements refid="classgr_1_1filter_1_1fir__filter__blk_1a9a32e0ec9acd9aadf709b79a8dc4e965">set_taps</reimplements>
+        <param>
+          <type>const std::vector&lt; TAP_T &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk__impl_1ab473d6c7c1af044b65c26f1d7f5ca1c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; TAP_T &gt;</type>
+        <definition>std::vector&lt;TAP_T&gt; gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;::taps</definition>
+        <argsstring>() const</argsstring>
+        <name>taps</name>
+        <reimplements refid="classgr_1_1filter_1_1fir__filter__blk_1ab0fa850fb064bfd1167f92655cb88f65">taps</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk__impl_1a30f0a078f12c5b9070f4860f4abbed31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>sync_decimator</label>
+      </node>
+      <node id="64">
+        <label>gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1fir__filter__blk"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1fir__filter__blk__impl"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="68">
+        <label>sync_decimator</label>
+      </node>
+      <node id="67">
+        <label>gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1fir__filter__blk"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>gr::filter::fir_filter_blk_impl&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1fir__filter__blk__impl"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" line="34" column="1" bodyfile="/home/gnu/gr-customModule/lib/fir_filter_blk_impl.h" bodystart="33" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a8e9d55bb66b7d9c0616c60b51a40583a" prot="private" virt="non-virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>d_fir</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1aeafa1aba271972c61070ba94c3a7e6c8" prot="private" virt="non-virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1aaa46d02af79b2bdfd2e4f632664b9066" prot="public" virt="non-virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>fir_filter_blk_impl</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk_1a2719c9b1bdbe39ad10a9b50c8e4602fa" prot="public" virt="non-virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a48681f5bd094c9282801878d90e1b5eb" prot="public" virt="virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk_1aba5b72c974fee4db0a5db2c803a46312" prot="public" virt="non-virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1ab473d6c7c1af044b65c26f1d7f5ca1c0" prot="public" virt="virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a30f0a078f12c5b9070f4860f4abbed31" prot="public" virt="non-virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk__impl_1a3903a00f424d0cacf7d58aa6ee5d0d03" prot="public" virt="non-virtual"><scope>gr::filter::fir_filter_blk_impl</scope><name>~fir_filter_blk_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

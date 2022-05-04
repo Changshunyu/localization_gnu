@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1blocks_1_1delay__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::blocks::delay_impl</compoundname>
+    <basecompoundref refid="classgr_1_1blocks_1_1delay" prot="public" virt="non-virtual">gr::blocks::delay</basecompoundref>
+    <includes refid="delay__impl_8h" local="no">delay_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1delay__impl_1adc5a86004a0bfb41dd5d592a0d469724" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::blocks::delay_impl::d_itemsize</definition>
+        <argsstring></argsstring>
+        <name>d_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="37" column="1" bodyfile="/home/gnu/gr-customModule/lib/delay_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1delay__impl_1a8efd951cd8f676080e506e2f9df4ee4a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::blocks::delay_impl::d_delta</definition>
+        <argsstring></argsstring>
+        <name>d_delta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="38" column="1" bodyfile="/home/gnu/gr-customModule/lib/delay_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1blocks_1_1delay__impl_1aea6a95aba4c93ea3e11c411ae2d57e8e" prot="private" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::blocks::delay_impl::d_mutex_delay</definition>
+        <argsstring></argsstring>
+        <name>d_mutex_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="39" column="1" bodyfile="/home/gnu/gr-customModule/lib/delay_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a82c0846b833ab479db283aef3c7ef693" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::blocks::delay_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a10150e95ec3b9ded7401e7b538854f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::delay_impl::delay_impl</definition>
+        <argsstring>(size_t itemsize, int delay)</argsstring>
+        <name>delay_impl</name>
+        <param>
+          <type>size_t</type>
+          <declname>itemsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a2d6264fa4e3f977c6eb174baceb42896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::blocks::delay_impl::~delay_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~delay_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1aa5ddd6528b136d2e19b0f6353a3aec4d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int gr::blocks::delay_impl::dly</definition>
+        <argsstring>() const</argsstring>
+        <name>dly</name>
+        <reimplements refid="classgr_1_1blocks_1_1delay_1ac5f0f9cf44b84f2f6c77b1dbc8fc2ccf">dly</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="45" column="1" bodyfile="/home/gnu/gr-customModule/lib/delay_impl.h" bodystart="45" bodyend="45"/>
+        <references refid="classgr_1_1blocks_1_1delay__impl_1a2d325fb0d8c853e40b0f563d7d32e856">general_work</references>
+        <references refid="classgr_1_1blocks_1_1delay__impl_1aa9eac0ed77735ac7dab81017a736215e">set_dly</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1aa9eac0ed77735ac7dab81017a736215e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::blocks::delay_impl::set_dly</definition>
+        <argsstring>(int d)</argsstring>
+        <name>set_dly</name>
+        <reimplements refid="classgr_1_1blocks_1_1delay_1ad4c08709073a3f5e2f1729bc5c168c58">set_dly</reimplements>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Reset the delay. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>change the delay value. This can be a positive or negative value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="46" column="1"/>
+        <referencedby refid="classgr_1_1blocks_1_1delay__impl_1aa5ddd6528b136d2e19b0f6353a3aec4d" compoundref="delay__impl_8h" startline="45" endline="45">dly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1blocks_1_1delay__impl_1a2d325fb0d8c853e40b0f563d7d32e856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::blocks::delay_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="48" column="1"/>
+        <referencedby refid="classgr_1_1blocks_1_1delay__impl_1aa5ddd6528b136d2e19b0f6353a3aec4d" compoundref="delay__impl_8h" startline="45" endline="45">dly</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>gr::blocks::delay</label>
+        <link refid="classgr_1_1blocks_1_1delay"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>gr::blocks::delay_impl</label>
+        <link refid="classgr_1_1blocks_1_1delay__impl"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>gr::blocks::delay</label>
+        <link refid="classgr_1_1blocks_1_1delay"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>gr::blocks::delay_impl</label>
+        <link refid="classgr_1_1blocks_1_1delay__impl"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gnu/gr-customModule/lib/delay_impl.h" line="33" column="1" bodyfile="/home/gnu/gr-customModule/lib/delay_impl.h" bodystart="32" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a8efd951cd8f676080e506e2f9df4ee4a" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>d_delta</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1adc5a86004a0bfb41dd5d592a0d469724" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>d_itemsize</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1aea6a95aba4c93ea3e11c411ae2d57e8e" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>d_mutex_delay</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a10150e95ec3b9ded7401e7b538854f36" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>delay_impl</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1aa5ddd6528b136d2e19b0f6353a3aec4d" prot="public" virt="virtual"><scope>gr::blocks::delay_impl</scope><name>dly</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a82c0846b833ab479db283aef3c7ef693" prot="private" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a2d325fb0d8c853e40b0f563d7d32e856" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1blocks_1_1delay_1afb3f9733fb6b7f4f9c69dd397f1dcad5" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1aa9eac0ed77735ac7dab81017a736215e" prot="public" virt="virtual"><scope>gr::blocks::delay_impl</scope><name>set_dly</name></member>
+      <member refid="classgr_1_1blocks_1_1delay_1a459e4162535c2c3616ec39089d4fd7db" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1blocks_1_1delay__impl_1a2d6264fa4e3f977c6eb174baceb42896" prot="public" virt="non-virtual"><scope>gr::blocks::delay_impl</scope><name>~delay_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

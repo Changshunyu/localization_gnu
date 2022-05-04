@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1filter_1_1fir__filter__blk" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::filter::fir_filter_blk</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
+    <includes refid="fir__filter__blk_8h" local="no">fir_filter_blk.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class IN_T</type>
+      </param>
+      <param>
+        <type>class OUT_T</type>
+      </param>
+      <param>
+        <type>class TAP_T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1filter_1_1fir__filter__blk_1aba5b72c974fee4db0a5db2c803a46312" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1filter_1_1fir__filter__blk" kindref="compound">fir_filter_blk</ref>&lt; IN_T, OUT_T, TAP_T &gt; &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;fir_filter_blk&lt;IN_T, OUT_T, TAP_T&gt; &gt; gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="61" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk_1a2719c9b1bdbe39ad10a9b50c8e4602fa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1filter_1_1fir__filter__blk_1aba5b72c974fee4db0a5db2c803a46312" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;::make</definition>
+        <argsstring>(int decimation, const std::vector&lt; TAP_T &gt; &amp;taps)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; TAP_T &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+<para>FIR filter with IN_T input, OUT_T output, and TAP_T taps. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>decimation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set the integer decimation rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>taps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a vector/list of taps of type TAP_T </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk_1a9a32e0ec9acd9aadf709b79a8dc4e965" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;::set_taps</definition>
+        <argsstring>(const std::vector&lt; TAP_T &gt; &amp;taps)=0</argsstring>
+        <name>set_taps</name>
+        <param>
+          <type>const std::vector&lt; TAP_T &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1filter_1_1fir__filter__blk_1ab0fa850fb064bfd1167f92655cb88f65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; TAP_T &gt;</type>
+        <definition>virtual std::vector&lt;TAP_T&gt; gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;::taps</definition>
+        <argsstring>() const =0</argsstring>
+        <name>taps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="72" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FIR filter with IN_T input, OUT_T output, and TAP_T taps. </para>    </briefdescription>
+    <detaileddescription>
+<para>The fir_filter_blk_XXX blocks create finite impulse response (FIR) filters that perform the convolution in the time domain:</para><para><programlisting><codeline><highlight class="normal">out<sp/>=<sp/>0</highlight></codeline>
+<codeline><highlight class="normal">for<sp/>i<sp/>in<sp/>ntaps:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>out<sp/>+=<sp/>input[n-i]<sp/>*<sp/>taps[i]</highlight></codeline>
+</programlisting></para><para>The taps are a C++ vector (or Python list) of values of the type specified by the third letter in the block&apos;s suffix. For this block, the value is of type TAP_T. Taps can be created using the firdes or optfir tools.</para><para>These versions of the filter can also act as down-samplers (or decimators) by specifying an integer value for <computeroutput>decimation</computeroutput>. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>sync_decimator</label>
+      </node>
+      <node id="23">
+        <label>gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1fir__filter__blk"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>sync_decimator</label>
+      </node>
+      <node id="25">
+        <label>gr::filter::fir_filter_blk&lt; IN_T, OUT_T, TAP_T &gt;</label>
+        <link refid="classgr_1_1filter_1_1fir__filter__blk"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" line="59" column="1" bodyfile="/home/gnu/gr-customModule/include/customModule/fir_filter_blk.h" bodystart="58" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk_1a2719c9b1bdbe39ad10a9b50c8e4602fa" prot="public" virt="non-virtual"><scope>gr::filter::fir_filter_blk</scope><name>make</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk_1a9a32e0ec9acd9aadf709b79a8dc4e965" prot="public" virt="pure-virtual"><scope>gr::filter::fir_filter_blk</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk_1aba5b72c974fee4db0a5db2c803a46312" prot="public" virt="non-virtual"><scope>gr::filter::fir_filter_blk</scope><name>sptr</name></member>
+      <member refid="classgr_1_1filter_1_1fir__filter__blk_1ab0fa850fb064bfd1167f92655cb88f65" prot="public" virt="pure-virtual"><scope>gr::filter::fir_filter_blk</scope><name>taps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
